@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import Header from "./components/Header";
 import Body from "./components/Body";
 import Features from "./components/Features";
+import Customers from "./components/Customers";
 const Applayout = () => {
  
   return (
@@ -10,6 +11,7 @@ const Applayout = () => {
       <Header />
       <Body />
       <Features />
+      <Customers/>
     </div>
   );
 };
