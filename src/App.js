@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Body from "./components/Body";
 import Features from "./components/Features";
 import MainReview from "./components/MainReview";
+import Footer from "./components/Footer";
 
 const Applayout = () => {
   return (
@@ -12,6 +13,7 @@ const Applayout = () => {
       <Body />
       <Features />
       <MainReview />
+      <Footer/>
     </div>
   );
 };
