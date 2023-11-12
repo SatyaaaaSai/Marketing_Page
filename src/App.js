@@ -3,15 +3,15 @@ import ReactDOM from "react-dom/client";
 import Header from "./components/Header";
 import Body from "./components/Body";
 import Features from "./components/Features";
-import Customers from "./components/Customers";
+import MainReview from "./components/MainReview";
+
 const Applayout = () => {
- 
   return (
     <div>
       <Header />
       <Body />
       <Features />
-      <Customers/>
+      <MainReview />
     </div>
   );
 };

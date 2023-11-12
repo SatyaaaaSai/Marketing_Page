@@ -3,7 +3,7 @@ const KeyFeatures = (props) => {
   return (
     <div className="mt-[230px]">
       <center>
-        <h2 className="font-bold font-sans text-4xl col to-blue-100"><strong>━━</strong>Key Features<span>━━</span></h2>
+        <h2 className="font-bold font-sans text-4xl col to-blue-100 flex justify-center"><strong>━━</strong>Key Features<span>━━</span></h2>
       </center>
       <div className="flex justify-evenly items-center mt-[50px]">
       <div className=" mx-4 w-[300px] h-[200px] px-3 border border-blue-400 rounded shadow-lg hover:shadow-md hover:shadow-blue-700 hover:cursor-pointer ">
